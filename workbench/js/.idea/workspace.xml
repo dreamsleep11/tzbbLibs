@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd874ae5-baa0-4620-9d52-b3f9cd533002" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.npmrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/.idea/runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/androidTest/java/com/dhcc/workbench/ExampleInstrumentedTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/ReactNativeHelper/MSetting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/ReactNativeHelper/RNMainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/ReactNativeHelper/RNMainApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/ReactNativeHelper/RNModulePackage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/helper/TRequestPromise.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/AttrGet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/FileLoggerHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/FileUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/RegExp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/ReplaceException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/StackHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/SuperLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/TPromise.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/java/com/dhcc/workbench/kernel/TPromiseException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../android/workbench/src/test/java/com/dhcc/workbench/ExampleUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench.xcodeproj/project.xcworkspace/xcuserdata/dreamsleep.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench.xcodeproj/xcuserdata/dreamsleep.xcuserdatad/xcschemes/workbench.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench.xcodeproj/xcuserdata/dreamsleep.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/Workbench.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/Workbench.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormBaseCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormBaseCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormButtonCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormButtonCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormCheckCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormCheckCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormDateCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormDateCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormDatePickerCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormDatePickerCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormDescriptorCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormImageCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormImageCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormInlineRowDescriptorCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormInlineSelectorCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormInlineSelectorCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormLeftRightSelectorCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormLeftRightSelectorCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormPickerCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormPickerCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSegmentedCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSegmentedCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSelectorCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSelectorCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSliderCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSliderCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormStepCounterCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormStepCounterCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSwitchCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormSwitchCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormTextFieldCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormTextFieldCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormTextViewCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Cell/XLFormTextViewCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Controllers/XLFormOptionsObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Controllers/XLFormOptionsObject.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Controllers/XLFormOptionsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Controllers/XLFormOptionsViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Controllers/XLFormRowDescriptorViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Controllers/XLFormViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Controllers/XLFormViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Descriptors/XLFormDescriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Descriptors/XLFormDescriptor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Descriptors/XLFormDescriptorDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Descriptors/XLFormRowDescriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Descriptors/XLFormRowDescriptor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Descriptors/XLFormSectionDescriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Descriptors/XLFormSectionDescriptor.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSArray+XLFormAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSArray+XLFormAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSExpression+XLFormAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSExpression+XLFormAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSObject+XLFormAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSObject+XLFormAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSPredicate+XLFormAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSPredicate+XLFormAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSString+XLFormAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/NSString+XLFormAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/UIView+XLFormAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/UIView+XLFormAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormRightDetailCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormRightDetailCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormRightImageButton.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormRightImageButton.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormRowNavigationAccessoryView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormRowNavigationAccessoryView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormTextView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Helpers/Views/XLFormTextView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Validation/XLFormRegexValidator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Validation/XLFormRegexValidator.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Validation/XLFormValidationStatus.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Validation/XLFormValidationStatus.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Validation/XLFormValidator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Validation/XLFormValidator.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/Validation/XLFormValidatorProtocol.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/XLForm.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/XLForm/XLForm.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/controllers/DevViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/controllers/DevViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/controllers/ReactMainViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/controllers/ReactMainViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/helpers/BundleHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/helpers/BundleHelper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/helpers/NetHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/helpers/NetHelper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/model/ConfigManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/model/ConfigManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/model/ReactPublicResources.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/model/ReactPublicResources.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/nativeModules/Ajax.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ios/workbench/nativeModules/Ajax.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tzbb-mc-workbench.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/1.1/workbench-1.1.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/1.1/workbench-1.1.aar.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/1.1/workbench-1.1.aar.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/1.1/workbench-1.1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/1.1/workbench-1.1.pom.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/1.1/workbench-1.1.pom.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/maven-metadata.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/maven-metadata.xml.md5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../publish/com/dhcc/workbench/maven-metadata.xml.sha1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../workbench.podspec" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../README.md" afterPath="$PROJECT_DIR$/../../README.md" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="498" />
+    <option name="y" value="358" />
+    <option name="width" value="1813" />
+    <option name="height" value="1302" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd874ae5-baa0-4620-9d52-b3f9cd533002" name="Default" comment="" />
+      <created>1503977585489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503977585489</updated>
+      <workItem from="1503977586640" duration="1653000" />
+      <workItem from="1503986166879" duration="172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1825000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="498" y="358" width="1813" height="1302" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tzbb-mc-workbench.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/tzbb-mc-workbench.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

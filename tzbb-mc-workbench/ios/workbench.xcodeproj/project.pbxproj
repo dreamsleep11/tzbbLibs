@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D22FC70C1F455D0900E580B1 /* Ajax.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FC70B1F455D0900E580B1 /* Ajax.m */; };
 		D22FC70F1F455D2800E580B1 /* NetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FC70E1F455D2800E580B1 /* NetHelper.m */; };
 		D24050341F176ADE000E41B6 /* Workbench.m in Sources */ = {isa = PBXBuildFile; fileRef = D24050331F176ADE000E41B6 /* Workbench.m */; };
 		D24050351F176ADE000E41B6 /* Workbench.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D24050321F176ADE000E41B6 /* Workbench.h */; };
@@ -52,6 +51,7 @@
 		D24050C51F176B39000E41B6 /* XLFormValidationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D24050981F176B39000E41B6 /* XLFormValidationStatus.m */; };
 		D24050C61F176B39000E41B6 /* XLFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D240509A1F176B39000E41B6 /* XLFormValidator.m */; };
 		D24050C71F176B39000E41B6 /* XLForm.m in Sources */ = {isa = PBXBuildFile; fileRef = D240509D1F176B39000E41B6 /* XLForm.m */; };
+		D2DA973E1F55178B00AB1A1A /* Ajax.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA973D1F55178B00AB1A1A /* Ajax.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,8 +68,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D22FC70A1F455D0900E580B1 /* Ajax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ajax.h; sourceTree = "<group>"; };
-		D22FC70B1F455D0900E580B1 /* Ajax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ajax.m; sourceTree = "<group>"; };
 		D22FC70D1F455D2800E580B1 /* NetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHelper.h; sourceTree = "<group>"; };
 		D22FC70E1F455D2800E580B1 /* NetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetHelper.m; sourceTree = "<group>"; };
 		D240502F1F176ADE000E41B6 /* libworkbench.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libworkbench.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +160,8 @@
 		D240509B1F176B39000E41B6 /* XLFormValidatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidatorProtocol.h; sourceTree = "<group>"; };
 		D240509C1F176B39000E41B6 /* XLForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLForm.h; sourceTree = "<group>"; };
 		D240509D1F176B39000E41B6 /* XLForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLForm.m; sourceTree = "<group>"; };
+		D2DA973C1F55178B00AB1A1A /* Ajax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ajax.h; sourceTree = "<group>"; };
+		D2DA973D1F55178B00AB1A1A /* Ajax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ajax.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,15 +175,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D22FC7091F455D0900E580B1 /* nativeModules */ = {
-			isa = PBXGroup;
-			children = (
-				D22FC70A1F455D0900E580B1 /* Ajax.h */,
-				D22FC70B1F455D0900E580B1 /* Ajax.m */,
-			);
-			path = nativeModules;
-			sourceTree = "<group>";
-		};
 		D24050261F176ADE000E41B6 = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +194,7 @@
 		D24050311F176ADE000E41B6 /* workbench */ = {
 			isa = PBXGroup;
 			children = (
-				D22FC7091F455D0900E580B1 /* nativeModules */,
+				D2DA973B1F55178B00AB1A1A /* nativeBridges */,
 				D240503B1F176B39000E41B6 /* controllers */,
 				D24050421F176B39000E41B6 /* helpers */,
 				D24050451F176B39000E41B6 /* model */,
@@ -379,6 +370,15 @@
 			path = Validation;
 			sourceTree = "<group>";
 		};
+		D2DA973B1F55178B00AB1A1A /* nativeBridges */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA973C1F55178B00AB1A1A /* Ajax.h */,
+				D2DA973D1F55178B00AB1A1A /* Ajax.m */,
+			);
+			path = nativeBridges;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -473,10 +473,10 @@
 				D24050B41F176B39000E41B6 /* XLFormOptionsObject.m in Sources */,
 				D24050AF1F176B39000E41B6 /* XLFormSliderCell.m in Sources */,
 				D24050B21F176B39000E41B6 /* XLFormTextFieldCell.m in Sources */,
+				D2DA973E1F55178B00AB1A1A /* Ajax.m in Sources */,
 				D24050A41F176B39000E41B6 /* XLFormBaseCell.m in Sources */,
 				D24050A21F176B39000E41B6 /* ConfigManager.m in Sources */,
 				D24050BD1F176B39000E41B6 /* NSPredicate+XLFormAdditions.m in Sources */,
-				D22FC70C1F455D0900E580B1 /* Ajax.m in Sources */,
 				D22FC70F1F455D2800E580B1 /* NetHelper.m in Sources */,
 				D24050C71F176B39000E41B6 /* XLForm.m in Sources */,
 				D24050B81F176B39000E41B6 /* XLFormRowDescriptor.m in Sources */,
