@@ -1,0 +1,69 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+apply from: "../../../node_modules/react-native/react.gradle"
+version = "1.0.1"   // #修改# // 这里是aar的版本号
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.facebook.react:react-native:+'
+    testCompile 'junit:junit:4.12'
+    //网络请求包
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+
+}
+
+apply plugin: 'maven'
+uploadArchives{
+    repositories {
+        mavenDeployer {
+            println("file:/"+rootDir.getParent()+"/publish")
+            repository= repository(url: "file://"+rootDir.getParent()+"/publish");
+//            repository= repository(url: "http://192.168.1.30:8081/nexus/content/repositories/android/") {
+//                authentication(userName: "admin", password: "admin123")
+//            }
+            pom.project {
+                name project.name
+                packaging 'aar'
+                url 'https://github.com/ilimei'
+                groupId 'com.dhcc'
+                artifactId project.name
+                description 'Android ' + project.name + ' lib'
+                version 1.1
+            }
+
+        }
+    }
+}
+
+ext {
+    repository = this.uploadArchives.repositories.mavenDeployer.repository
+}
+
+tasks.create("aar"+project.name).configure{
+    dependsOn uploadArchives;
+    group = "aarBuild"
+}
