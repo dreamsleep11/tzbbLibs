@@ -17,7 +17,7 @@
 <img src="docImgs/2-1.png" width="200px" />
 <img src="docImgs/2-2.png" width="200px" />
 
-### 2.1 demo
+###  Demo
 ``` javascript
 /**
  *   Copyright 2007-2017 by DHC Software co.
