@@ -1,8 +1,8 @@
 {
   "name": "tzbb-mc-workbench",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "基础平台",
-  "main": "./js/src/RnWorkBench",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,9 @@
   "publishConfig": {
     "registry": "http://192.168.1.17:8089/repository/npmhosted"
   },
-  "author": "Dreamsleep",
-  "license": "ISC"
+  "author": "lele4900",
+  "license": "ISC",
+  "dependencies": {
+    "react-native-actionsheet": "^2.2.2"
+  }
 }

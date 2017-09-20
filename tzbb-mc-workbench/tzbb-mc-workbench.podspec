@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name= "workbench"
+s.name= "tzbb-mc-workbench"
 s.version= "0.1"
 s.license= "MIT"
 s.platform       = :ios, "8.0"

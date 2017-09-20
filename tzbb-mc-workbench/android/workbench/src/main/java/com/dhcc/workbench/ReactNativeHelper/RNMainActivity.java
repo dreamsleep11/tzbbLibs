@@ -14,6 +14,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.ReactRootView;
 import com.facebook.react.common.LifecycleState;
 import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler;
+import com.facebook.react.modules.core.PermissionAwareActivity;
 import com.facebook.react.modules.core.PermissionListener;
 import com.facebook.react.shell.MainReactPackage;
 
@@ -25,7 +26,7 @@ import javax.annotation.Nullable;
  * Created by dreamsleep on 2017/8/18.
  */
 
-public abstract class RNMainActivity extends AppCompatActivity implements DefaultHardwareBackBtnHandler {
+public abstract class RNMainActivity extends AppCompatActivity implements DefaultHardwareBackBtnHandler,PermissionAwareActivity {
 
 
     class MReactActivityDelegate extends ReactActivityDelegate {
@@ -75,14 +76,14 @@ public abstract class RNMainActivity extends AppCompatActivity implements Defaul
 //        AttrGet.setContext(this);
         mDelegate = new MReactActivityDelegate(this, name);
         this.mDelegate.onCreate(savedInstanceState);
-//        mainCreate();
+        mainCreate();
 
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        mainCreate();
+//        mainCreate();
 //        AttrGet.setContext(this);
     }
 
@@ -121,7 +122,7 @@ public abstract class RNMainActivity extends AppCompatActivity implements Defaul
         mReactInstanceManager = builder.build();
 //        System.out.println("ccc");
 //        mReactInstanceManager.getDevSupportManager().addCustomDevOption("Exit", new DevOptionHandler() {
-//            @Override
+//            @Ov
 //            public void onOptionSelected() {
 //                RNMainActivity.this.finish();
 //            }

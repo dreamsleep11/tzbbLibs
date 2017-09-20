@@ -3,12 +3,17 @@
  */
 
 import {NativeModules} from "react-native";
+
+// const HardwareBridges = NativeModules.Ajax;
 const RNWorkbench = {
     get Ajax() {
         return NativeModules.Ajax;
+    }, get HardwareBridges() {
+        return NativeModules.HardwareBridges;
     }
 };
 const RNWorkbenchInternal = RNWorkbench;
+
 function applyForwarding(key) {
     if (__DEV__) {
         Object.defineProperty(
@@ -20,6 +25,7 @@ function applyForwarding(key) {
     }
     RNWorkbench[key] = RNWorkbenchInternal[key];
 }
+
 for (const key in RNWorkbenchInternal) {
     applyForwarding(key);
 }

@@ -51,6 +51,9 @@
 		D24050C51F176B39000E41B6 /* XLFormValidationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D24050981F176B39000E41B6 /* XLFormValidationStatus.m */; };
 		D24050C61F176B39000E41B6 /* XLFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D240509A1F176B39000E41B6 /* XLFormValidator.m */; };
 		D24050C71F176B39000E41B6 /* XLForm.m in Sources */ = {isa = PBXBuildFile; fileRef = D240509D1F176B39000E41B6 /* XLForm.m */; };
+		D2B8D9E31F5FBDB00091687B /* HardwareBridges.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B8D9E01F5FBDB00091687B /* HardwareBridges.m */; };
+		D2B8D9E41F5FBDB00091687B /* LocalPersistenceBridges.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B8D9E21F5FBDB00091687B /* LocalPersistenceBridges.m */; };
+		D2B8D9E71F5FBDBB0091687B /* EquiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B8D9E61F5FBDBB0091687B /* EquiHelper.m */; };
 		D2DA973E1F55178B00AB1A1A /* Ajax.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA973D1F55178B00AB1A1A /* Ajax.m */; };
 /* End PBXBuildFile section */
 
@@ -160,6 +163,12 @@
 		D240509B1F176B39000E41B6 /* XLFormValidatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidatorProtocol.h; sourceTree = "<group>"; };
 		D240509C1F176B39000E41B6 /* XLForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLForm.h; sourceTree = "<group>"; };
 		D240509D1F176B39000E41B6 /* XLForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLForm.m; sourceTree = "<group>"; };
+		D2B8D9DF1F5FBDB00091687B /* HardwareBridges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareBridges.h; sourceTree = "<group>"; };
+		D2B8D9E01F5FBDB00091687B /* HardwareBridges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardwareBridges.m; sourceTree = "<group>"; };
+		D2B8D9E11F5FBDB00091687B /* LocalPersistenceBridges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPersistenceBridges.h; sourceTree = "<group>"; };
+		D2B8D9E21F5FBDB00091687B /* LocalPersistenceBridges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPersistenceBridges.m; sourceTree = "<group>"; };
+		D2B8D9E51F5FBDBB0091687B /* EquiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiHelper.h; sourceTree = "<group>"; };
+		D2B8D9E61F5FBDBB0091687B /* EquiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiHelper.m; sourceTree = "<group>"; };
 		D2DA973C1F55178B00AB1A1A /* Ajax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ajax.h; sourceTree = "<group>"; };
 		D2DA973D1F55178B00AB1A1A /* Ajax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ajax.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,6 +228,8 @@
 		D24050421F176B39000E41B6 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D2B8D9E51F5FBDBB0091687B /* EquiHelper.h */,
+				D2B8D9E61F5FBDBB0091687B /* EquiHelper.m */,
 				D22FC70D1F455D2800E580B1 /* NetHelper.h */,
 				D22FC70E1F455D2800E580B1 /* NetHelper.m */,
 				D24050431F176B39000E41B6 /* BundleHelper.h */,
@@ -373,6 +384,10 @@
 		D2DA973B1F55178B00AB1A1A /* nativeBridges */ = {
 			isa = PBXGroup;
 			children = (
+				D2B8D9DF1F5FBDB00091687B /* HardwareBridges.h */,
+				D2B8D9E01F5FBDB00091687B /* HardwareBridges.m */,
+				D2B8D9E11F5FBDB00091687B /* LocalPersistenceBridges.h */,
+				D2B8D9E21F5FBDB00091687B /* LocalPersistenceBridges.m */,
 				D2DA973C1F55178B00AB1A1A /* Ajax.h */,
 				D2DA973D1F55178B00AB1A1A /* Ajax.m */,
 			);
@@ -439,9 +454,11 @@
 				D24050A61F176B39000E41B6 /* XLFormCheckCell.m in Sources */,
 				D240509F1F176B39000E41B6 /* DevViewController.m in Sources */,
 				D24050B11F176B39000E41B6 /* XLFormSwitchCell.m in Sources */,
+				D2B8D9E31F5FBDB00091687B /* HardwareBridges.m in Sources */,
 				D24050AE1F176B39000E41B6 /* XLFormSelectorCell.m in Sources */,
 				D24050C21F176B39000E41B6 /* XLFormRowNavigationAccessoryView.m in Sources */,
 				D24050B51F176B39000E41B6 /* XLFormOptionsViewController.m in Sources */,
+				D2B8D9E41F5FBDB00091687B /* LocalPersistenceBridges.m in Sources */,
 				D24050C51F176B39000E41B6 /* XLFormValidationStatus.m in Sources */,
 				D24050C31F176B39000E41B6 /* XLFormTextView.m in Sources */,
 				D24050B91F176B39000E41B6 /* XLFormSectionDescriptor.m in Sources */,
@@ -449,6 +466,7 @@
 				D24050C41F176B39000E41B6 /* XLFormRegexValidator.m in Sources */,
 				D24050AC1F176B39000E41B6 /* XLFormPickerCell.m in Sources */,
 				D24050AD1F176B39000E41B6 /* XLFormSegmentedCell.m in Sources */,
+				D2B8D9E71F5FBDBB0091687B /* EquiHelper.m in Sources */,
 				D24050A51F176B39000E41B6 /* XLFormButtonCell.m in Sources */,
 				D24050BA1F176B39000E41B6 /* NSArray+XLFormAdditions.m in Sources */,
 				D24050A11F176B39000E41B6 /* BundleHelper.m in Sources */,
