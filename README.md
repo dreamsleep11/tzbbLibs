@@ -18,7 +18,7 @@
 <img src="docImgs/2-2.png" width="200px" />
 
 ### 2.1 demo
-```
+``` javascript
 /**
  *   Copyright 2007-2017 by DHC Software co.
  *   创建人：dreamsleep
