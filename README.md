@@ -14,8 +14,8 @@
 ####  2. 级联选择框
 >有标题 有文本框长酱样儿
 
-![](docImgs/2-1.png)
-![](docImgs/2-2.png)
+![img-w200](docImgs/2-1.png)
+![img-w200](docImgs/2-2.png)
 
 ##### 2.1 demo
 ```
