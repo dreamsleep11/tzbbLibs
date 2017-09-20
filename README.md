@@ -6,18 +6,18 @@
 ## workbench
 >tzbb脚手架基础底座
 
-### workbench API
-#### 1. 引用方法（脚手架主项目已整合，可以忽略）
+## workbench API
+## 1. 引用方法（脚手架主项目已整合，可以忽略）
 
 
 
-####  2. 级联选择框
+##  2. 级联选择框
 >有标题 有文本框长酱样儿
 
-![img-w200](docImgs/2-1.png)
-![img-w200](docImgs/2-2.png)
+<img src="docImgs/2-1.png" width="200px" />
+<img src="docImgs/2-2.png" width="200px" />
 
-##### 2.1 demo
+### 2.1 demo
 ```
 /**
  *   Copyright 2007-2017 by DHC Software co.
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-##### 属性
+### 属性
 
 | 名称 | 类型 | 介绍  |
 | --- | --- | --- |
@@ -178,7 +178,8 @@ const styles = StyleSheet.create({
 |selectedColor|String(颜色编码)|选中项颜色编码|
 |onSelected|function|选择结束回调 默认参数  selectedValues|
 
-##### 注意
+### 注意！
+>有些东西不可少的
 
 ```
  <MultSelecterOptionModal ref="MultSelecterOptionModal"/>
